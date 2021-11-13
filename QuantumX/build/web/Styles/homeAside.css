@@ -1,0 +1,163 @@
+.aside{
+    position: fixed;
+    width: 5%;
+    height: 80vh;
+    margin-top: 4vh;
+    margin-left: 1.5vh;
+    min-width: 47px;
+    background: rgba(217, 210, 203, 0.65);
+/*    background: rgb(239 189 146 / 65%);*/
+    border-radius: 60px; 
+}
+.aside img{
+    display: block;
+    width: 6vh;
+    height: auto;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.aside img:hover{
+    width: 7vh;
+}
+.aside img[alt="publishB"]{
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+}
+.aside img[alt="categoryB"]{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.searchDiv{
+    display: flex;
+    position: fixed;
+    margin-top: 1.5vh;
+    right: 1.5vh;
+    width: 11vh;
+    height: auto;
+    min-width: 11vh;
+    min-height: 11vh;
+    justify-content: center;
+    background: rgba(217, 210, 203, 0.65);
+    border-radius: 60px;     
+    transition-property: min-height;
+    transition-duration: 0.5s;
+}
+.searchDiv table{
+    position: absolute;
+    right: 2vh;
+    padding-top: 2vh;
+    
+}
+.searchDiv td{
+    align-items: flex-end;
+    text-align: right;
+}
+.searchDiv img[alt="searchB"]{
+    width: 6vh;
+    height: 6vh;
+    cursor: pointer;
+    transition-property: width, height;
+    transition-duration: 0.5s, 0.5s;
+}
+.searchDiv img[alt="searchB"]:hover{
+    width: 6.5vh;
+    height: 6.5vh;
+}
+.searchDiv img[alt="profileSB"]{
+    width: 6vh;
+    height: 6vh;
+    cursor: pointer;
+    opacity: 0;
+    transition-property: transform, opacity, width, height;
+    transition-duration: 0.7s, 0.5s, 0.5s, 0.5s;
+}
+.searchDiv img[alt="profileSB"]:hover{
+    width: 6.5vh;
+    height: 6.5vh;
+}
+.searchDiv img[alt="postSB"]{
+    width: 6vh;
+    height: 6vh;
+    cursor: pointer;
+    opacity: 0;
+    transition-property: transform, opacity, width, height;
+    transition-duration: 0.7s, 0.5s, 0.5s, 0.5s;
+}
+.searchDiv img[alt="postSB"]:hover{
+    width: 6.5vh;
+    height: 6.5vh;
+}
+.searchDiv td[id="searchUTd"]{
+    padding-right: 3vh;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.searchDiv input[name="searchU"]{
+    background: none;
+    text-align: left;
+    width: 25vh;
+    height: 5vh;
+    outline: none;
+    font: 2vh 'Barlow', sans-serif;
+    color: #262626;
+    border: 3px solid snow;
+    border-radius: 20px;
+    transition-property: width, background;
+    transition-duration: 0.5s, 0.5s;
+}
+.searchDiv input[name="searchU"]:focus{
+    width: 35vh;
+    background: snow;
+}
+#searchUB{
+    position: absolute;
+    margin-top: 0.8vh;
+    margin-left: -5.2vh; 
+    background: url(Images/Icons/search.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 4vh;
+    height: 4vh;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.searchDiv td[id="searchPTd"]{
+    padding-right: 3vh;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.searchDiv input[name="searchP"]{
+    background: none;
+    text-align: left;
+    width: 25vh;
+    height: 5vh;
+    outline: none;
+    font: 2vh 'Barlow', sans-serif;
+    color: #262626;
+    border: 3px solid snow;
+    border-radius: 20px;
+    transition-property: width, background;
+    transition-duration: 0.5s, 0.5s;
+}
+.searchDiv input[name="searchP"]:focus{
+    width: 35vh;
+    background: snow;
+}
+#searchPB{
+    position: absolute;
+    margin-top: 0.8vh;
+    margin-left: -5.2vh; 
+    background: url(Images/Icons/search.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 4vh;
+    height: 4vh;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+

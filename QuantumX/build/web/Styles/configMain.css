@@ -1,0 +1,90 @@
+main{
+    display: block;
+    float: bottom;
+    background: #262626;
+    height: 100vh;
+}
+.board{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+    padding-top: 9vh;
+}
+.board table{
+    background: none;
+    font-family: 'Barlow', sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.board img[alt="user"]{
+    width: 30vh;
+    height: 30vh;
+}
+.board td[id="user_name"]{
+    color: white;
+    font: 5vh 'Barlow', sans-serif;
+}
+.board td[id="user_email"]{
+    color: white;
+    font: 2.5vh 'Barlow', sans-serif;
+}
+.changePassDiv{
+    display: block;
+}
+.changePassDiv input[type="password"]{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30vh;
+    height: 5vh;
+    margin-bottom: 2vh; 
+    background: none;
+    outline: none;
+    border: 3px solid snow;
+    border-radius: 25px;
+    font: 2vh 'Barlow', sans-serif;
+    color: snow;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.changePassDiv input[type="password"]:focus{
+    width: 45vh;
+}
+.changePassDiv input[type="submit"]{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 15vh;
+    height: 5vh;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: 3px solid snow;
+    border-radius: 10px;
+    font: 2vh 'Barlow', sans-serif;
+    color: snow;
+    transition-property: background, color;
+    transition-duration: 0.5s, 0.5s;
+}
+.changePassDiv input[type="submit"]:hover{
+    background: snow;
+    color: black;
+}
+#previous{
+    position: fixed;
+    bottom: 4vh;
+    right: 4vh;
+    width: 8vh;
+    height: 8vh;
+    transition-property: width, height;
+    transition-duration: 0.5s, 0.5s;
+}
+#previous:hover{
+    width: 9vh;
+    height: 9vh;
+}

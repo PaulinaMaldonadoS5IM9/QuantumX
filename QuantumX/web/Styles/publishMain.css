@@ -1,0 +1,145 @@
+main{
+    display: block;
+    padding-top: 12.3vh;
+}
+.board{
+    width: 100vw;
+
+}
+.board div{
+    width: 70%;
+}
+.board table{
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #474B4E;
+    font-family: 'Barlow', sans-serif;
+}
+.board a{
+    color: #486F99;
+}
+.board textarea{
+    width: 98%;
+    height: 90%;
+    border: 0;
+    outline: 0;
+    
+}
+#cancel{
+    position: absolute;
+    bottom: 4vh;
+    right: 4vh;
+    width: 50px;
+    height: 50px;
+    transition-property: width, height;
+    transition-duration: 0.5s, 0.5s;
+}
+#cancel:hover{
+    width: 55px;
+    height: 55px;
+}
+.aside,.tablon{
+    float:left;
+    height: 20vh;
+}
+
+.aside{
+    position: relative;
+    margin-top: 6vh;
+    width: 100%;
+    min-width: 47px;
+     
+}
+.aside span{
+    font: 2.5vh 'Barlow', sans-serif;
+    color: white;
+}
+.aside hr{
+    width: 70vh;
+    background: white;
+    border-radius: 25px;
+}
+.hr1{
+    background: #262626;
+    border: 1px solid #262626;
+    border-radius: 15px;
+}   
+.aside img{
+    margin-right: 6vh;
+    max-width: 44px;
+    height: auto;
+}
+.aside img[alt="post"]{
+    position: absolute;
+    left: 4vh;
+    float: left;
+    max-width: 44px;
+    height: auto;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at bottom left,#976961,#ef9c78,#ffd699);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.head{
+    position: fixed;
+    border-bottom: 2px solid white;
+    background: #3ec8ac;
+    width: 100vw;
+}
+.uno{
+    width:6.3%;
+}
+.dos{
+    vertical-align: middle;
+    width:48%;
+}
+.tres{
+    vertical-align: middle;
+    width:30%;
+}
+.cuatro{
+    vertical-align: middle;
+}
+.uno img{
+    min-height: 64.5px;
+    max-height: 80px;
+}
+.tres img{
+    min-height: 51.1px;
+    max-height: 63px;
+}
+.cinco img{
+    min-height: 25.55px;
+    max-height: 31.45px;
+}
+.ctmgerardo div{
+    width: 100vh;
+}
+#publishB{
+    position: fixed;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    background: url(Images/Icons/publicarB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    cursor: pointer;
+    transition-property: width, height;
+    transition-duration: 0.5s, 0.5s;
+}
+#publishB:hover{
+    width: 55px;
+    height: 55px;
+}

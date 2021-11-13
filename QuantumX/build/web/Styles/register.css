@@ -1,0 +1,62 @@
+/*
+ * Register Style Sheet
+ */
+.register_form{
+    display: flex; 
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 50%;
+    top: 5%;
+}
+.register_form input[name="name"], input[name="lastname"], input[name="user"], 
+        input[name="email"], input[name="newPass"], input[name="confirmPass"]{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 40px;
+    background: none;
+    border: 2px solid snow;
+    border-radius: 50px;
+    font: 20px 'Barlow', sans-serif;
+    color: snow;
+    outline: none;
+    opacity: 0;
+    transition-property: width, transform, opacity;
+    transition-duration: 0.5s, 0.6s, 0.6s;
+}
+.register_form input[name="name"]:focus, input[name="lastname"]:focus, input[name="user"]:focus, 
+        input[name="email"]:focus, input[name="newPass"]:focus, input[name="confirmPass"]:focus{
+    width: 350px;
+}
+.register_form input[name="submit"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 35px;
+    background: none;
+    border: 2px solid snow;
+    border-radius: 25px;
+    font: 20px 'Barlow', sans-serif;
+    color: snow;
+    outline: none;
+    opacity: 0;
+    transition-property: background, color, transform, opacity;
+    transition-duration: 0.5s, 0.5s, 0.6s, 0.6s;
+}
+.register_form input[name="submit"]:hover{
+    background: snow;
+    color: black;
+}

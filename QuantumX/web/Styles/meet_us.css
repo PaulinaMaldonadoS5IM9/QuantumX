@@ -1,0 +1,39 @@
+/*
+ * Meet Us Page Style Sheet
+ */
+
+.meetUs{
+    display: none;
+    position: absolute;
+    width: 50%;
+    opacity: 0;
+    transition-property: opacity, display;
+    transition-duration: 0.6s, 1s;
+}
+.meetUs h1{
+    font: 30px 'Barlow', sans-serif;
+    color: snow;
+}
+.meetUs h2[id="h2_who"], h2[id="h2_quantum"], h2[id="h2_team"]{
+    font: 25px 'Barlow', sans-serif;
+    color: snow;
+    text-align: left;
+}
+.meetUs h2[id="h2_contact"]{
+    font: 25px 'Barlow', sans-serif;
+    color: snow;
+    text-align: center;
+    
+}
+.meetUs p{
+    font: 15px 'Barlow', sans-serif;
+    color: snow;
+    text-align: center;
+    justify-content: center;
+}
+.meetUs ul{
+    font: 15px 'Barlow', sans-serif;
+    color: snow;
+    text-align: left;
+    
+}
